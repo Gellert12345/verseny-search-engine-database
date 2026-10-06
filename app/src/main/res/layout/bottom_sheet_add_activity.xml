@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@color/card_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_activity_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quick_select"
+        android:textSize="14sp"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/activityPresetGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:chipSpacingHorizontal="8dp"
+        app:chipSpacingVertical="8dp">
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/presetGaming"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preset_gaming"
+            android:checkable="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/presetVideo"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preset_video"
+            android:checkable="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/presetSocial"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preset_social"
+            android:checkable="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/presetMusic"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preset_music"
+            android:checkable="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/presetBrowsing"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preset_browsing"
+            android:checkable="false" />
+
+        <com.google.android.material.chip.Chip
+            android:id="@+id/presetNavigation"
+            style="@style/Widget.Material3.Chip.Assist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/preset_navigation"
+            android:checkable="false" />
+
+    </com.google.android.material.chip.ChipGroup>
+
+    <EditText
+        android:id="@+id/activityNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/activity_name"
+        android:inputType="text"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/hoursInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginTop="12dp"
+            android:hint="@string/hours"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/minutesInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="12dp"
+            android:hint="@string/minutes"
+            android:inputType="number"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/batteryUsage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/battery_usage_hour"
+        android:inputType="number"
+        android:layout_marginTop="12dp"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/confirmAddButton"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/add"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="14dp"
+        app:backgroundTint="@color/primary"/>
+</LinearLayout>

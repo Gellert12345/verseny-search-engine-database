@@ -1,0 +1,161 @@
+<resources>
+    <string name="app_name">Akku tervező</string>
+
+    <!-- Főképernyő -->
+    <string name="app_title">Akku tervező</string>
+
+    <string name="current_battery">AKTUÁLIS TÖLTÖTTSÉG </string>
+    <string name="charging">⚡ Töltés</string>
+    <string name="device">Eszköz</string>
+    <string name="custom_devices">SAJÁT ESZKÖZÖK</string>
+    <string name="default_devices">ALAP ESZKÖZÖK</string>
+    <string name="delete_phone">Telefon törlése</string>
+    <string name="phone_already_exists">Ez a telefon már szerepel a listában</string>
+    <string name="battery_capacity_value">Akkukapacitás: %1$d mAh</string>
+    <string name="search_phone">Telefon keresése</string>
+    <string name="add_custom_phone">Saját telefon hozzáadása</string>
+    <string name="phone_name">Telefon neve</string>
+    <string name="detect">Észlelés</string>
+    <string name="battery_health_detected">Becsült akkumulátorállapot: %1$d%%</string>
+    <string name="battery_health_not_supported">Az akkumulátor állapotának felismerése ezen az eszközön nem támogatott.</string>
+    <string name="battery_health_detection_failed">Az akkumulátor állapota nem becsülhető meg megbízhatóan. Állítsd be kézzel.</string>
+    <string name="select_phone_first">Először válaszd ki a telefonodat.</string>
+    <string name="battery_capacity_mah">Akkumulátor kapacitása</string>
+    <string name="add_phone">Telefon hozzáadása</string>
+    <string name="battery_health">Akkumulátor állapota</string>
+    <string name="battery_cycle_count">Töltési ciklusok: %1$d</string>
+    <string name="effective_capacity">Becsült valós kapacitás: %1$d mAh</string>
+    <string name="battery_health_manual_hint">Állítsd be kézzel az akku állapotát.</string>
+    <string name="target_duration">Tervezett időtartam</string>
+    <string name="hours_hint">Óra</string>
+
+    <string name="no_insights_title">Még nincsenek eredmények</string>
+    <string name="no_insights_description">Készíts egy tervet, és megnézheted, hogyan befolyásolják a tevékenységeid az akkumulátort.</string>
+    <string name="create_plan">Terv készítése</string>
+    <string name="todays_plan">Mai terv</string>
+    <string name="todays_plan_description">Add hozzá a tervezett tevékenységeidet.</string>
+    <string name="add_activity">+  Tevékenység</string>
+
+    <string name="minimum_battery_reserve">Minimum akkumulátortartalék</string>
+    <string name="calculate_plan">Terv kiszámítása</string>
+
+    <!-- Eredmény -->
+    <string name="plan_result">Terv eredménye</string>
+    <string name="maximum_usage_time">Maximális használati idő</string>
+    <string name="maximum_usage_hours_minutes">%1$d ó %2$d perc</string>
+    <string name="estimated_usage">Becsült fogyasztás</string>
+    <string name="estimated_battery">Becsült töltöttség</string>
+    <string name="minimum_reserve">Minimum tartalék</string>
+    <string name="remaining_capacity">Fennmaradó kapacitás: %1$d mAh</string>
+
+    <string name="plan_achievable">✓ A terved megvalósítható</string>
+    <string name="plan_not_achievable">✕ Nincs elég töltöttség ehhez a tervhez</string>
+    <string name="plan_missing_capacity">Csökkentsd a tervezett fogyasztást legalább %1$d mAh-val a tartalék megtartásához.</string>
+
+    <string name="plan_reduce_time_hours_minutes">Csökkentsd a tervezett fogyasztást legalább %1$d mAh-val — ez körülbelül %2$d óra %3$d perc használat.</string>
+    <string name="plan_reduce_time_hours">Csökkentsd a tervezett fogyasztást legalább %1$d mAh-val — ez körülbelül %2$d óra használat.</string>
+    <string name="plan_reduce_time_minutes">Csökkentsd a tervezett fogyasztást legalább %1$d mAh-val — ez körülbelül %2$d perc használat.</string>
+    <string name="plan_reduce_activity_hours_minutes">Csökkentsd a(z) %1$s használatát körülbelül %2$d óra %3$d perccel a tartalék megtartásához.</string>
+    <string name="plan_reduce_activity_hours">Csökkentsd a(z) %1$s használatát körülbelül %2$d órával a tartalék megtartásához.</string>
+    <string name="plan_reduce_activity_minutes">Csökkentsd a(z) %1$s használatát körülbelül %2$d perccel a tartalék megtartásához.</string>
+    <string name="plan_reduce_multiple">A tevékenységek fogyasztását körülbelül %1$d mAh-val kell csökkentened a tartalék megtartásához.</string>
+
+    <string name="suggested_adjustment_title">Javasolt módosítás</string>
+
+    <string name="reduce_activity">%1$s: csökkentsd %2$s idővel</string>
+
+    <string name="estimated_saving">Becsült megtakarítás: kb. %1$d mAh</string>
+
+    <string name="duration_hours_minutes">%1$d óra %2$d perc</string>
+    <string name="duration_hours">%1$d óra</string>
+    <string name="duration_minutes">%1$d perc</string>
+
+    <!-- Activity card -->
+    <string name="delete_activity">Tevékenység törlése</string>
+    <string name="duration">Időtartam</string>
+    <string name="activity_duration">%1$d ó %2$d perc</string>
+    <string name="battery_usage">Fogyasztás</string>
+    <string name="battery_usage_per_hour">%1$d mAh / óra</string>
+
+    <!-- Activity hozzáadása -->
+    <string name="add_activity_title">Tevékenység hozzáadása</string>
+    <string name="quick_select">Gyors választás</string>
+
+    <string name="preset_gaming">🎮 Játék</string>
+    <string name="preset_video">🎬 Videó</string>
+    <string name="preset_social">📱 Közösségi média</string>
+    <string name="preset_music">🎵 Zene</string>
+    <string name="preset_browsing">🌐 Böngészés</string>
+    <string name="preset_navigation">🗺️ Navigáció</string>
+
+    <string name="activity_gaming">Játék</string>
+    <string name="activity_video">Videó</string>
+    <string name="activity_social">Közösségi média</string>
+    <string name="activity_music">Zene</string>
+    <string name="activity_browsing">Böngészés</string>
+    <string name="activity_navigation">Navigáció</string>
+
+    <string name="activity_name">Tevékenység neve</string>
+    <string name="hours">Óra</string>
+    <string name="minutes">Perc</string>
+    <string name="battery_usage_hour">Fogyasztás (mAh / óra)</string>
+    <string name="add">Hozzáadás</string>
+
+    <!-- Beállítások -->
+    <string name="settings">Beállítások</string>
+    <string name="appearance">Megjelenés</string>
+    <string name="system_default">Rendszerbeállítás</string>
+    <string name="light">Világos</string>
+    <string name="dark">Sötét</string>
+
+    <string name="language">Nyelv</string>
+    <string name="english">🇬🇧   English</string>
+    <string name="hungarian">🇭🇺   Magyar</string>
+
+    <!-- Dinamikus értékek -->
+    <string name="percentage">%1$d%%</string>
+    <string name="percentage_text">%1$s%%</string>
+
+    <!-- Hibák -->
+    <string name="error_activity_name">Add meg a tevékenység nevét</string>
+    <string name="error_hours">Add meg az órák számát</string>
+    <string name="error_minutes">Add meg a percek számát</string>
+    <string name="error_battery">Add meg az akkumulátor-fogyasztást</string>
+    <string name="error_minutes_range">A perc értéke 0 és 59 között lehet</string>
+    <string name="error_battery_range">A fogyasztásnak 1% és 100% között kell lennie</string>
+    <string name="error_consumption_positive">A fogyasztásnak 0 mAh/óránál nagyobbnak kell lennie</string>
+    <string name="error_select_phone">Először válaszd ki a telefonodat</string>
+    <string name="error_phone_name">Add meg a telefon nevét</string>
+    <string name="error_phone_capacity">Adj meg egy érvényes akkumulátorkapacitást</string>
+    <string name="error_duration_required">Adj meg 0-nál hosszabb időtartamot</string>
+    <string name="error_target_duration">Add meg a tervezett időtartamot</string>
+    <string name="error_target_positive">Az időtartamnak 0-nál nagyobbnak kell lennie</string>
+    <string name="error_target_short">A tervezett időtartam nem lehet rövidebb a tevékenységek összidejénél</string>
+
+    <!-- Welcome screen -->
+    <string name="welcome_title">Üdv az Akkumulátortervezőben!</string>
+    <string name="welcome_subtitle">Tervezd meg a napod. Kíméld az akkumulátorod.</string>
+
+    <string name="welcome_battery_title">Ismerd az akkumulátorod</string>
+    <string name="welcome_battery_description">Állítsd be az eszközöd és az akkumulátor állapotát a pontosabb becsléshez.</string>
+
+    <string name="welcome_plan_title">Tervezd meg a használatot</string>
+    <string name="welcome_plan_description">Adj hozzá játékot, videózást, hívásokat és más tevékenységeket.</string>
+
+    <string name="welcome_result_title">Lásd előre az eredményt</string>
+    <string name="welcome_result_description">Ellenőrizd, hogy az akkumulátorod kibírja-e a megtervezett napot.</string>
+
+    <string name="get_started">Kezdjük</string>
+
+    <!-- Setup -->
+    <string name="setup_step_one">1 / 2</string>
+    <string name="setup_device_title">Állítsd be az eszközöd</string>
+    <string name="setup_device_description">Válaszd ki a telefonod, hogy az Akkumulátortervező pontosabb becslést adhasson.</string>
+    <string name="continue_button">Tovább</string>
+
+    <string name="setup_step_two">2 / 2</string>
+    <string name="setup_battery_title">Állítsd be az akkumulátort</string>
+    <string name="setup_battery_description">Állítsd be az akkumulátor állapotát a pontosabb kapacitás- és fogyasztásbecsléshez.</string>
+    <string name="back_button">Vissza</string>
+    <string name="finish_setup">Beállítás befejezése</string>
+</resources>

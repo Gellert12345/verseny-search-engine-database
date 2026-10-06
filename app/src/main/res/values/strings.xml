@@ -1,0 +1,158 @@
+<resources>
+    <string name="app_name">Battery Planner</string>
+
+    <!-- Main screen -->
+    <string name="app_title">Battery Planner</string>
+
+    <string name="current_battery">CURRENT BATTERY</string>
+    <string name="charging">⚡ Charging</string>
+    <string name="device">Device</string>
+    <string name="custom_devices">MY DEVICES</string>
+    <string name="default_devices">DEFAULT DEVICES</string>
+    <string name="delete_phone">Delete phone</string>
+    <string name="phone_already_exists">This phone already exists</string>
+    <string name="battery_capacity_value">Battery capacity: %1$d mAh</string>
+    <string name="search_phone">Search your phone</string>
+    <string name="add_custom_phone">Add custom phone</string>
+    <string name="phone_name">Phone name</string>
+    <string name="detect">Detect</string>
+    <string name="battery_health_detected">Estimated battery health: %1$d%%</string>
+    <string name="battery_health_not_supported">Battery health detection is not supported on this device.</string>
+    <string name="battery_health_detection_failed">Battery health could not be estimated reliably. Please set it manually.</string>
+    <string name="select_phone_first">Select your phone first.</string>
+    <string name="battery_capacity_mah">Battery capacity</string>
+    <string name="add_phone">Add phone</string>
+    <string name="battery_health">Battery health</string>
+    <string name="battery_cycle_count">Cycle count: %1$d</string>
+    <string name="effective_capacity">Estimated real capacity: %1$d mAh</string>
+    <string name="battery_health_manual_hint">Set battery health manually.</string>
+    <string name="target_duration">Target duration</string>
+    <string name="hours_hint">Hours</string>
+
+    <string name="no_insights_title">No insights yet</string>
+    <string name="no_insights_description">Create a plan to see how your activities affect your battery.</string>
+    <string name="create_plan">Create a plan</string>
+    <string name="todays_plan">Today\'s plan</string>
+    <string name="todays_plan_description">Add the activities you plan to use.</string>
+    <string name="add_activity">+  Add activity</string>
+
+    <string name="minimum_battery_reserve">Minimum battery reserve</string>
+    <string name="calculate_plan">Calculate plan</string>
+
+    <!-- Result -->
+    <string name="plan_result">Plan result</string>
+    <string name="maximum_usage_time">Maximum usage time</string>
+    <string name="maximum_usage_hours_minutes">%1$d h %2$d min</string>
+    <string name="estimated_usage">Estimated usage</string>
+    <string name="estimated_battery">Estimated battery</string>
+    <string name="minimum_reserve">Minimum reserve</string>
+    <string name="remaining_capacity">Remaining capacity: %1$d mAh</string>
+
+    <string name="plan_achievable">✓ Your plan is achievable</string>
+    <string name="plan_not_achievable">✕ Not enough battery for this plan</string>
+    <string name="plan_missing_capacity">Reduce planned usage by at least %1$d mAh to maintain your reserve.</string>
+
+    <string name="plan_reduce_time_hours_minutes">Reduce planned usage by at least %1$d mAh — about %2$d h %3$d min of usage.</string>
+    <string name="plan_reduce_time_hours">Reduce planned usage by at least %1$d mAh — about %2$d h of usage.</string>
+    <string name="plan_reduce_time_minutes">Reduce planned usage by at least %1$d mAh — about %2$d min of usage.</string>
+    <string name="plan_reduce_activity_hours_minutes">Reduce %1$s by about %2$d h %3$d min to maintain your reserve.</string>
+    <string name="plan_reduce_activity_hours">Reduce %1$s by about %2$d h to maintain your reserve.</string>
+    <string name="plan_reduce_activity_minutes">Reduce %1$s by about %2$d min to maintain your reserve.</string>
+    <string name="plan_reduce_multiple">Your activities need to use about %1$d mAh less to maintain your reserve.</string>
+
+    <string name="suggested_adjustment_title">Suggested adjustment</string>
+    <string name="reduce_activity">%1$s: reduce by %2$s</string>
+    <string name="estimated_saving">Estimated saving: about %1$d mAh</string>
+    <string name="duration_hours_minutes">%1$d h %2$d min</string>
+    <string name="duration_hours">%1$d h</string>
+    <string name="duration_minutes">%1$d min</string>
+
+    <!-- Activity card -->
+    <string name="delete_activity">Delete activity</string>
+    <string name="duration">Duration</string>
+    <string name="activity_duration">%1$d h %2$d min</string>
+    <string name="battery_usage">Consumption</string>
+    <string name="battery_usage_per_hour">%1$d mAh / hour</string>
+
+    <!-- Add activity -->
+    <string name="add_activity_title">Add activity</string>
+    <string name="quick_select">Quick select</string>
+
+    <string name="preset_gaming">🎮 Gaming</string>
+    <string name="preset_video">🎬 Video</string>
+    <string name="preset_social">📱 Social</string>
+    <string name="preset_music">🎵 Music</string>
+    <string name="preset_browsing">🌐 Browsing</string>
+    <string name="preset_navigation">🗺️ Navigation</string>
+
+    <string name="activity_gaming">Gaming</string>
+    <string name="activity_video">Video</string>
+    <string name="activity_social">Social media</string>
+    <string name="activity_music">Music</string>
+    <string name="activity_browsing">Browsing</string>
+    <string name="activity_navigation">Navigation</string>
+
+    <string name="activity_name">Activity name</string>
+    <string name="hours">Hours</string>
+    <string name="minutes">Minutes</string>
+    <string name="battery_usage_hour">Consumption (mAh / hour)</string>
+    <string name="add">Add</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="appearance">Appearance</string>
+    <string name="system_default">System default</string>
+    <string name="light">Light</string>
+    <string name="dark">Dark</string>
+
+    <string name="language">Language</string>
+    <string name="english">🇬🇧   English</string>
+    <string name="hungarian">🇭🇺   Magyar</string>
+
+    <!-- Dynamic values -->
+    <string name="percentage">%1$d%%</string>
+    <string name="percentage_text">%1$s%%</string>
+
+    <!-- Errors -->
+    <string name="error_activity_name">Please enter an activity name</string>
+    <string name="error_hours">Please enter the number of hours</string>
+    <string name="error_minutes">Please enter the number of minutes</string>
+    <string name="error_battery">Please enter the battery percentage</string>
+    <string name="error_minutes_range">Minutes must be between 0 and 59</string>
+    <string name="error_battery_range">Battery percentage must be between 1% and 100%</string>
+    <string name="error_consumption_positive">Consumption must be greater than 0 mAh/hour</string>
+    <string name="error_select_phone">Please select your phone first</string>
+    <string name="error_phone_name">Enter a phone name</string>
+    <string name="error_phone_capacity">Enter a valid battery capacity</string>
+    <string name="error_duration_required">Enter a duration greater than 0</string>
+    <string name="error_target_duration">Please enter the target duration</string>
+    <string name="error_target_positive">Target duration must be greater than 0</string>
+    <string name="error_target_short">Target duration cannot be shorter than the total activity time</string>
+
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome to Battery Planner</string>
+    <string name="welcome_subtitle">Plan smarter. Make your battery last.</string>
+
+    <string name="welcome_battery_title">Know your battery</string>
+    <string name="welcome_battery_description">Set your device and battery health for more accurate estimates.</string>
+
+    <string name="welcome_plan_title">Plan your usage</string>
+    <string name="welcome_plan_description">Add gaming, videos, calls and other activities to your day.</string>
+
+    <string name="welcome_result_title">See what will last</string>
+    <string name="welcome_result_description">Check whether your battery can handle your plan before you start.</string>
+
+    <string name="get_started">Get started</string>
+
+    <!-- Setup -->
+    <string name="setup_step_one">1 of 2</string>
+    <string name="setup_device_title">Set up your device</string>
+    <string name="setup_device_description">Choose your phone so Battery Planner can make more accurate estimates.</string>
+    <string name="continue_button">Continue</string>
+
+    <string name="setup_step_two">2 of 2</string>
+    <string name="setup_battery_title">Set up your battery</string>
+    <string name="setup_battery_description">Set your battery health to improve capacity and usage estimates.</string>
+    <string name="back_button">Back</string>
+    <string name="finish_setup">Finish setup</string>
+</resources>
